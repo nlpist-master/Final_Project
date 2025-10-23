@@ -1,0 +1,29 @@
+# קבצים זמניים של פייתון
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# סביבה וירטואלית
+.venv/
+venv/
+.env/
+.env
+
+# קונפיגורציה אישית של IDE
+.idea/
+.vscode/
+
+# לוגים לא נחוצים
+*.log
+
+# מערכת הפעלה
+.DS_Store
+Thumbs.db
+
+# אל תתעלם ממודלים, CSV ו־DB
+!*.pkl
+!*.joblib
+!*.csv
+!*.sqlite3
+!*.sav
+!*.h5
